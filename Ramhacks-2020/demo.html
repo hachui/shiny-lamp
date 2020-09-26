@@ -12,10 +12,9 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    
     <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" ></a>
+        <a class="navbar-brand"></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -24,14 +23,12 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-       
-        </div>
+        <div class="collapse navbar-collapse" id="navbarResponsive"></div>
       </div>
     </nav>
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 style=color:green>Generate Prediction</h1>
+        <h1 style="color: green">Generate Prediction</h1>
       </div>
     </div>
     <div class="container">
@@ -39,15 +36,15 @@
         <input type="hidden" id="hidden_token" />
         <div class="col-sm-6 form-group row mt-4 px-0">
           <label for="Genre" class="form-label col-sm-5">Food url:</label>
-          <select
-            name=""
-            
+
+          <input
+            type="text"
+            id="lname"
+            name="lname"
             class="form-control form-control-sm col-sm-10"
-          >
-            <option>Select...</option>
-          </select>
+          />
         </div>
-     
+
         <div class="col-sm-6 row form-group px-0">
           <button
             type="submit"
@@ -58,13 +55,6 @@
           </button>
         </div>
       </form>
-      <div class="row">
-        <div class="col-sm-6 px-0">
-          <div class="list-group song-list"></div>
-        </div>
-        <div class="offset-md-1 col-sm-4" id="song-detail"></div>
-      </div>
     </div>
-  </div>
   </body>
 </html>
