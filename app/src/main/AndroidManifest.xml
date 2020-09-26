@@ -3,6 +3,8 @@
     package="com.phoenixrising1800.android.foodimagesrecognition">
     <uses-feature android:name="android.hardware.camera2"
                     android:required="false" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
     <!--> <uses-permission android:name="android.permission.CAMERA"/> <!-->
 
     <application
